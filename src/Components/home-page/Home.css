@@ -1,0 +1,128 @@
+@import './AboutBtn.css';
+
+.home {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.right-home, .left-home {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-home {
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.typical {
+    display: flex;
+    margin: 0;
+}
+
+.typicalText {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+
+.located-text {
+    font-size: 1rem;
+    color: #898989;
+    line-height: 25px;
+    letter-spacing: .1rem;
+}
+
+.projectBtn {
+    width: 170px;
+    height: 40px;
+    border-radius: 0px;
+    border: 2px #04151f solid;
+    color: #04151f;
+    text-transform: uppercase;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 1.5pt;
+    margin: 10px 50px;
+}
+
+.left-home {
+    background-image: url('../../2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    opacity: .85;
+    position: relative;
+}
+
+.canvasAnimation {
+    height: 100%;
+    position: absolute;
+}
+
+.user-name {
+    font-weight: 600;
+    font-size: 24pt;
+    letter-spacing: 0pt;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.aboutBtn {
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 0px;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 2pt;
+    background-color: #fff;
+    color: #1b1b1b;
+    box-shadow: 0 0 0 0 rgb(230 237 255 / 70%);
+}
+
+.temp-text {
+    font-size: 1rem;
+    color: white;
+    line-height: 25px;
+    letter-spacing: .1rem;;
+}
+
+.sectionClose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #898989;
+}
+
+@media (max-width: 680px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-home, .right-home {
+        width: 100%;
+        height: 50%;
+    }
+}

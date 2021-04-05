@@ -7,10 +7,38 @@ const layout = {
     labelCol: { span: 4 },
 };
 
+const prime = {
+    color: '#4f46a9'
+}
+
+const right = {
+    width: '100%',
+    padding: '2.5rem'
+}
+
+const or = {
+    color: '#757575',
+    fontSize: '14px'
+}
+
+const checkbox = {
+  color: '#757575',
+}
+
+const check = {
+  margin: '1rem 0'
+
+}
+
+const sotIcons = {
+    display: 'flex',
+    justifyContent: 'space-between'
+}
+
 class Right extends Component {
     render() {
         return (
-                <div className="right-top">
+                <div style={right}>
                     <Form {...layout} >
                         <Form.Item>
                         <Input size="large" placeholder="Email" />
@@ -18,18 +46,18 @@ class Right extends Component {
                         
                         <Input size="large" placeholder="Password" />
 
-                        <Checkbox className="check">
-                        <span className="checkbox">
+                        <Checkbox style={check}>
+                        <span style={checkbox}>
                             Keep me login on this device
                         </span>
                         </Checkbox>
 
                         <Form.Item>
                         <Button size="large" className="signBtn">Sign In</Button>
-                        <span className="or">Or <a>Create New Account</a></span>
+                        <span style={or} >Or <a style={prime} href="#" >Create New Account</a></span>
                         </Form.Item>
-                        <div className="sotIcons">
-                            <span className="or">Or connect with</span>
+                        <div style= {sotIcons} >
+                            <span style={or} >Or connect with</span>
                             <Icons />
                         </div>
                     </Form>

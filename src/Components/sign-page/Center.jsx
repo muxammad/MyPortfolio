@@ -19,7 +19,7 @@ class Center extends Component {
         }
 
         return (
-            <div style={center}>
+            <div className="center" style={center}>
                 <Left />
                 <Right />
              </div>

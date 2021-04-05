@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Background from '../1.jpg'
 
 class Left extends Component {
     render() {

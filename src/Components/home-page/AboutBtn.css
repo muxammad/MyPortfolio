@@ -1,0 +1,25 @@
+.aboutBtn {
+    animation: btnAnimation 1.75s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@keyframes btnAnimation {
+    from {
+        box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);
+    }
+    to {
+        box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    }
+}
+
+.aboutBtn:hover {
+    color: black;
+    border: solid white;
+}
+
+.projectBtn:hover {
+    border: solid black;
+    width: 240px;
+    color: black;
+    border-left: solid white;
+    border-right: solid white;
+}

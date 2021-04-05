@@ -1,0 +1,32 @@
+.works-section {
+   justify-content: center;
+}
+
+.works-text {
+    font-size: 32px;
+}
+
+.works-title {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    color: #898989;
+    line-height: 25px;
+    letter-spacing: 2pt;
+}
+
+.work-screen {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+}
+
+.work-list {
+    padding: 4rem;
+}
+
+.ant-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
